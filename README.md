@@ -34,7 +34,7 @@
 	* Copy WeexOne source folder to `examples` folder
 	* Add WeexOne to `index.we`
 	```javascript
-        {name: ‘WeexOne/index.js’, title: ‘WeexOne’}
+        {name: 'WeexOne/index', title: 'WeexOne'}
 
 	```
 	* Run app in Android Studio  (Run button)
