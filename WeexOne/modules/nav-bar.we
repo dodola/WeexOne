@@ -1,5 +1,5 @@
 <template>
-    <div class="nav_bar" style="justify-content:{{justifyContent}}">
+    <div class="nav_bar" style="justify-content:{{justifyContent}}; align-items:center">
         <text class="nav_title" value="ONE">ONE {{title}}</text>
         <image src="http://image.wufazhuce.com/m.wufazhuce.com-menu-white.png"
                class="nav_right_icon" onclick="nav_right_click"></image>

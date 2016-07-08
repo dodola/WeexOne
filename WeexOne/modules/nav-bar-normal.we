@@ -5,9 +5,9 @@
                 <image style="width:99px;height:99px;" if="{{showback}}" onclick="onBackClick"
                        src="https://github.com/dodola/WeexOne/raw/master/imgs/return_image.png"></image>
             </div>
-            <div style="flex:1;justify-content: center; flex-direction: row">
+            <div style="diaplay:flex;justify-content: center; flex-direction: row; align-items:center;">
                 <image src="http://image.wufazhuce.com/m.wufazhuce.com-logo-gray-pure.png"
-                       style="width:75px;height:30px ;margin-top: 34px"></image>
+                       style="width:75px;height:30px;"></image>
                 <text class="text-type">|{{title}}</text>
             </div>
             <div style="flex:1;"></div>

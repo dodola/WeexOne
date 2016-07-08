@@ -1,7 +1,7 @@
 <template>
     <div>
         <nav-bar-normal title="电影"></nav-bar-normal>
-        <list>
+        <list style="flex:1">
             <cell repeat="{{movieItems}}">
                 <div>
                     <image src="{{cover}}" class="movie-item" movieid="{{id}}" onclick="onMovieItemClick"></image>
