@@ -139,7 +139,7 @@
                 var env = config.env;
                 var scale = env.scale;
 //                var deviceWidth = env.deviceWidth / scale;
-                self.deviceHeight = env.deviceHeight-170;
+                self.deviceHeight = env.deviceHeight - 170;
             }.bind(this));
 
         },

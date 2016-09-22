@@ -5,7 +5,8 @@
             <cell repeat="{{movieItems}}">
                 <div>
                     <image src="{{cover}}" class="movie-item" movieid="{{id}}" onclick="onMovieItemClick"></image>
-                    <text style="position:absolute;bottom:20px;right:20px;color:#f0595d;font-weight:bold;font-size:60px">{{score}}
+                    <text style="position:absolute;bottom:20px;right:20px;color:#f0595d;font-weight:bold;font-size:60px">
+                        {{score}}
                     </text>
                 </div>
             </cell>
@@ -34,7 +35,7 @@
             index: 0,
             movieItems: [],
             dir: 'examples',
-            baseURL: '',
+            baseURL: ''
         },
         created: function () {
             var self = this;

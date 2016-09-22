@@ -3,8 +3,13 @@
  */
 
 
-var stream = require('@weex-module/stream');
-var modal = require('@weex-module/modal');
+// var stream = require('@weex-module/stream');//说是0.15已经支持,但是我没生效
+
+var stream
+__weex_define__('@weex-temp/api', function (__weex_require__) {
+    stream = __weex_require__('@weex-module/stream')
+});
+
 var apiURL = {
     baseurl: 'http://v3.wufazhuce.com:8000/api',
     homePage: '/hp/bymonth/',
