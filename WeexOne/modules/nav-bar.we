@@ -1,6 +1,6 @@
 <template>
-    <div class="nav_bar" style="justify-content:{{justifyContent}}; align-items:center">
-        <text class="nav_title" value="ONE">ONE {{title}}</text>
+    <div class="nav_bar">
+        <text class="nav_title" value="ONE" navi-item-position="center">ONE {{title}}</text>
         <image src="http://image.wufazhuce.com/m.wufazhuce.com-menu-white.png"
                class="nav_right_icon" onclick="nav_right_click"></image>
     </div>
@@ -12,6 +12,7 @@
         background-color: rgba(0, 0, 0, 0.3);
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
         height: 99px;
     }
 
@@ -25,7 +26,6 @@
     .nav_right_icon {
         width: 40px;
         height: 40px;
-        margin-top: 26px;
         margin-right: 25px;
     }
 

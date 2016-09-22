@@ -5,9 +5,9 @@
                 <image style="width:99px;height:99px;" if="{{showback}}" onclick="onBackClick"
                        src="https://github.com/dodola/WeexOne/raw/master/imgs/return_image.png"></image>
             </div>
-            <div style="diaplay:flex;justify-content: center; flex-direction: row; align-items:center;">
+            <div class="nav_title">
                 <image src="http://image.wufazhuce.com/m.wufazhuce.com-logo-gray-pure.png"
-                       style="width:75px;height:30px;"></image>
+                       class="nav_logo"></image>
                 <text class="text-type">|{{title}}</text>
             </div>
             <div style="flex:1;"></div>
@@ -19,22 +19,30 @@
 <style>
     .text-type {
         color: #29a7e2;
-        text-align: center;
         margin-left: 10px;
     }
 
     .nav_bar {
         flex-direction: row;
         margin-bottom: 10px;
-        justify-content: space-between;
         height: 99px;
+    }
+
+    .nav_logo {
+        width: 75px;
+        height: 30px;
+    }
+
+    .nav_title {
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
     }
 
     .separate-item-text {
         height: 1px;
         background-color: #d4d4d4;
-        margin-left: 20px;
-        margin-right: 20px;
     }
 </style>
 
