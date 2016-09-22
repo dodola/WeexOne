@@ -79,7 +79,8 @@
                 var params = {
                     'animated': 'true'
                 };
-                self.$call('navigator_dodo', 'pop', params, function () {
+                navigator.pop(params, function (e) {
+                    //callback
                 });
             });
         },

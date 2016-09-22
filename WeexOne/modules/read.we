@@ -54,7 +54,6 @@
     .reading-list {
         margin-left: 20px;
         margin-right: 20px;
-        flex:1;
     }
 
     .refresh-view {
@@ -97,6 +96,8 @@
     require('weex-components');
     var modal = require('@weex-module/modal');
     var apis = require('../common/api');
+    var navigator = require('@weex-module/navigator');
+
     module.exports = {
         data: {
             currentIndex: 0,
@@ -159,7 +160,8 @@
                     'url': this.baseURL + 'WeexOne/modules/carouse-list.js?id=' + itemid + "&title=" + title,
                     'animated': 'true'
                 };
-                vm.$call('navigator_dodo', 'push', params, function () {
+                navigator.push(params, function (e) {
+                    //callback
                 });
 
             },
@@ -184,7 +186,8 @@
                     'url': this.baseURL + 'WeexOne/modules/essay-detail.js?id=' + id,
                     'animated': 'true'
                 };
-                vm.$call('navigator_dodo', 'push', params, function () {
+                navigator.push(params, function (e) {
+                    //callback
                 });
             },
             openSerialDetail: function (id) {
@@ -193,7 +196,8 @@
                     'url': this.baseURL + 'WeexOne/modules/serial-detail.js?id=' + id,
                     'animated': 'true'
                 };
-                vm.$call('navigator_dodo', 'push', params, function () {
+                navigator.push(params, function (e) {
+                    //callback
                 });
             },
             openQuestionDetail: function (id) {
@@ -202,7 +206,8 @@
                     'url': this.baseURL + 'WeexOne/modules/question-detail.js?id=' + id,
                     'animated': 'true'
                 };
-                vm.$call('navigator_dodo', 'push', params, function () {
+                navigator.push(params, function (e) {
+                    //callback
                 });
             }
         },

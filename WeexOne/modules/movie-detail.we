@@ -13,7 +13,9 @@
                 </div>
                 <indicator class="indicator"></indicator>
             </slider>
-            <text style="width:750px;font-weight:bold;font-size:48px;text-align:center;color:#333;margin-top: 40px;margin-bottom: 40px">{{title}}</text>
+            <text style="width:750px;font-weight:bold;font-size:48px;text-align:center;color:#333;margin-top: 40px;margin-bottom: 40px">
+                {{title}}
+            </text>
             <wxc-panel title="演员" type="primary">
                 <text>{{info}}</text>
             </wxc-panel>
@@ -84,7 +86,8 @@
                 var params = {
                     'animated': 'true'
                 };
-                self.$call('navigator_dodo', 'pop', params, function () {
+                navigator.pop(params, function (e) {
+                    //callback
                 });
             });
         },

@@ -95,14 +95,15 @@
                 self.authorImage = ret.data.author[0].web_url;
                 self.guideWord = ret.data.guide_word;
                 self.author = ret.data.author[0].user_name;
-                self.title=ret.data.hp_title;
+                self.title = ret.data.hp_title;
             });
 
             this.$on('onbackclick', function (e) {
                 var params = {
                     'animated': 'true'
                 };
-                self.$call('navigator_dodo', 'pop', params, function () {
+                navigator.pop(params, function (e) {
+                    //callback
                 });
             });
         },

@@ -56,6 +56,7 @@
 <script>
     require('weex-components');
     var modal = require('@weex-module/modal');
+    var navigator = require('@weex-module/navigator');
     var apis = require('../common/api');
 
     module.exports = {
@@ -118,7 +119,8 @@
                 var params = {
                     'animated': 'true'
                 };
-                self.$call('navigator_dodo', 'pop', params, function () {
+                navigator.pop(params, function (e) {
+                    //callback
                 });
             }, getParameterByName: function (name, url) {
                 name = name.replace(/[\[\]]/g, "\\$&");
@@ -149,7 +151,8 @@
                     'url': this.baseURL + 'WeexOne/modules/essay-detail.js?id=' + id,
                     'animated': 'true'
                 };
-                vm.$call('navigator_dodo', 'push', params, function () {
+                navigator.push(params, function (e) {
+                    //callback
                 });
             },
             openSerialDetail: function (id) {
@@ -158,7 +161,8 @@
                     'url': this.baseURL + 'WeexOne/modules/serial-detail.js?id=' + id,
                     'animated': 'true'
                 };
-                vm.$call('navigator_dodo', 'push', params, function () {
+                navigator.push(params, function (e) {
+                    //callback
                 });
             },
             openQuestionDetail: function (id) {
@@ -167,7 +171,8 @@
                     'url': this.baseURL + 'WeexOne/modules/question-detail.js?id=' + id,
                     'animated': 'true'
                 };
-                vm.$call('navigator_dodo', 'push', params, function () {
+                navigator.push(params, function (e) {
+                    //callback
                 });
             }
         }

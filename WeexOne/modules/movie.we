@@ -1,7 +1,7 @@
 <template>
     <div>
         <nav-bar-normal title="电影"></nav-bar-normal>
-        <list style="flex:1">
+        <list>
             <cell repeat="{{movieItems}}">
                 <div>
                     <image src="{{cover}}" class="movie-item" movieid="{{id}}" onclick="onMovieItemClick"></image>
@@ -81,7 +81,8 @@
                     'url': this.baseURL + 'WeexOne/modules/movie-detail.js?id=' + itemid,
                     'animated': 'true'
                 };
-                self.$call('navigator_dodo', 'push', params, function () {
+                navigator.push(params, function (e) {
+                    //callback
                 });
             }
         }
