@@ -2,6 +2,11 @@
 
 ## WEEXONE
 
+## Update
+2016-09-22 更新了WeexOne 兼容了新版本的Weex，还需要解决UI错乱的问题
+
+## 介绍
+
 端午的时候收到了Weex团队发的一个Weex Workshop的邮件，然后就利用这两天使用Weex做了一款[one 一个]的客户端。源代码在：[https://github.com/dodola/WeexOne][1]
 
 
