@@ -6,8 +6,8 @@
                 <text class="refresh-arrow" if="{{(refresh_display==='hide')}}">刷新</text>
                 <loading-indicator></loading-indicator>
             </refresh>
-            <cell if="{{showSliderCell}}">
-                <slider class="top-slider" append="tree" auto-play="true" interval="5000">
+            <cell class="top-slider">
+                <slider class="top-slider" append="tree" auto-play="true" interval="5000" if="{{showSliderCell}}">
                     <indicator class="indicator"></indicator>
                     <div repeat="{{imageList}}">
                         <image class="slider-item" src="{{cover}}" itemid="{{id}}" itemtitle="{{title}}"
@@ -15,9 +15,7 @@
                     </div>
                 </slider>
             </cell>
-            <cell if="{{showSliderReplaceCell}}">
-                <div class="top-slider"></div>
-            </cell>
+
             <cell class="row" repeat="{{readingList}}" index="{{$index}}">
                 <div class="reading-item" if="{{readingList[$index].showType1}}" cid="{{content.content_id}}"
                      onclick="onReadCellClick">
@@ -35,6 +33,14 @@
                                content="{{content.answer_content}}"></read-item>
                 </div>
             </cell>
+
+
+            <loading class="refresh-view" display="{{loading_display}}" onloading="onloading">
+                <text class="refresh-arrow"
+                      if="{{(refresh_display==='hide')}}">加载更多
+                </text>
+                <loading-indicator></loading-indicator>
+            </loading>
         </list>
     </div>
 </template>
@@ -82,11 +88,12 @@
     .indicator {
         position: absolute;
         width: 690px;
-        height: 420px;
+        height: 400px;
         top: 140px;
         left: 240px;
         itemColor: #dddddd;
-        itemSelectedColor: rgb(40, 96, 144);
+        itemSelectedColor: #45b5f0;
+        item-size: 15;
     }
 
 </style>
@@ -102,31 +109,41 @@
         data: {
             currentIndex: 0,
             showSliderCell: false,
-            showSliderReplaceCell: true,
             refresh_display: 'hide',
             loading_display: 'hide',
             imageList: [],
             dir: 'examples',
             readingList: [],
+            showListItem: false,
             baseURL: '',
         },
+        computed: {},
         methods: {
+
             onrefresh: function (e) {
                 var self = this;
                 self.refresh_display = 'show';
                 self.currentIndex = 0;
-                // self.$call('timer', 'setTimeout', function() {
-                //   self.refresh_display = 'hide';
-                // },3000);
                 self.getCarouselData();
                 self.getReadingIndex(self.currentIndex, false);
                 self.refresh_display = 'hide';
+
+            },
+            onloading: function (e) {
+                var self = this;
+                this.loading_display = "show";
+                self.refresh_display = 'show';
+
+                self.getReadingIndex(++self.currentIndex, true);
+                self.loading_display = "hide";
+                self.refresh_display = 'hide';
+
+
             },
             getReadingIndex: function (index, loadmore) {
                 var self = this;
                 apis.getReadingIndex(index, function (ret) {
-//                    modal.toast({'message': 'hide me!' + ret.data, 'duration': 1});
-                    if (loadmore) {
+                    if (!loadmore) {
                         self.readingList = [];
                     }
                     for (var i = 0; i < ret.data.length; i++) {
@@ -138,17 +155,16 @@
                             self.readingList.push(items[j]);
                         }
                     }
+                    self.showListItem = self.readingList.length > 0;
                 });
             },
             getCarouselData: function () {
                 var self = this;
                 self.showSliderCell = false;
-                self.showSliderReplaceCell = true;
                 apis.getReadingCarousel(function (ret) {
 
                     self.imageList = ret.data;
                     self.showSliderCell = true;
-                    self.showSliderReplaceCell = false;
                 });
             },
             onSliderItemClick: function (e) {

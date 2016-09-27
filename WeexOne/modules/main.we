@@ -2,6 +2,7 @@
     <div>
         <scroller class="content">
             <slider class="slider" append="tree" auto-play="false" onchange="sliderChange" id="imageSlider"
+                    if="{{showMainSlider}}"
                     style="height:{{deviceHeight}}px">
                 <div repeat="{{imageList}}" class="slider">
                     <image src="{{hp_img_url}}" style="height:{{deviceHeight}}px"
@@ -57,7 +58,6 @@
     .home-img {
         position: absolute;
         width: 750px;
-        /*height: 1024px;*/
         padding: 0;
         margin: 0;
         background: no-repeat center center;
@@ -66,12 +66,10 @@
 
     .slider {
         width: 750px;
-        /*height:1024px;*/
     }
 
     .sentence-bg {
         position: absolute;
-        /*height: 1024px;*/
         width: 750px;
         background-color: rgba(0, 0, 0, 0.2);
     }
@@ -113,6 +111,7 @@
 <script>
     require('weex-components');
     var modal = require('@weex-module/modal');
+    var dom = require("@weex-module/dom");
     var animation = require('@weex-module/animation');
     var stream = require('@weex-module/stream');
     var apis = require('../common/api');
@@ -125,6 +124,7 @@
             showSliderContent: true,
             nav_title: '',
             showMenu: false,
+            showMainSlider: true,
             deviceHeight: 1024,
             rows: [{data: '2016-06'}, {data: '2016-05'}, {data: '2016-04'}, {data: '2016-03'}, {data: '2016-02'}]
         },
@@ -136,15 +136,11 @@
 
 
             this.$getConfig(function (config) {
-                var env = config.env;
-                var scale = env.scale;
-//                var deviceWidth = env.deviceWidth / scale;
-                self.deviceHeight = env.deviceHeight - 170;
+                self.deviceHeight = 750 / config.env.deviceWidth * config.env.deviceHeight - 240
             }.bind(this));
 
         },
         ready: function () {
-            var self = this;
             this.getHomeData('2016-06');
         },
 
@@ -152,19 +148,24 @@
         methods: {
             getHomeData: function (dateStr) {
                 var self = this;
+                self.showMainSlider=false;
                 self.imageList = [];
                 apis.getHome(dateStr, function (retdata) {
-                    self.imageList = retdata.data;
+
+                    var tempData = retdata.data
                     self.nav_title = dateStr;
                     var monthdata = ['Jan.', 'Feb.', 'Mar.', 'Apr.', 'May.', 'Jun.', 'Jul.', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.'];
 
-                    for (var i = 0; i < self.imageList.length; i++) {
-                        var datap = self.imageList[i];
+                    for (var i = 0; i < tempData.length; i++) {
+                        var datap = tempData[i];
                         var hpMarketTime = new Date(datap.hp_makettime);
                         datap.hp_day = hpMarketTime.getDate();
                         datap.hp_month = monthdata[hpMarketTime.getMonth()];
                         datap.hp_year = hpMarketTime.getYear() + 1900;
                     }
+                    self.showMainSlider=true;
+
+                    self.imageList = tempData;
                 });
             },
             anim: function (styles, el, timingFunction, duration, callback) {

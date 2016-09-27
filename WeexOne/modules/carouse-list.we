@@ -146,7 +146,6 @@
                 self.openQuestionDetail(itemid);
             },
             openEssayDetail: function (id) {
-                var vm = this;
                 var params = {
                     'url': this.baseURL + 'WeexOne/modules/essay-detail.js?id=' + id,
                     'animated': 'true'
@@ -156,7 +155,6 @@
                 });
             },
             openSerialDetail: function (id) {
-                var vm = this;
                 var params = {
                     'url': this.baseURL + 'WeexOne/modules/serial-detail.js?id=' + id,
                     'animated': 'true'
@@ -166,7 +164,6 @@
                 });
             },
             openQuestionDetail: function (id) {
-                var vm = this;
                 var params = {
                     'url': this.baseURL + 'WeexOne/modules/question-detail.js?id=' + id,
                     'animated': 'true'

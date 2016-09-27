@@ -19,7 +19,6 @@
         font-size: 36px;
         margin-top: 20px;
         font-weight: bold;
-        /*width:700px;*/
     }
 
     .text-author {
