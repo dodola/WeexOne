@@ -3,6 +3,7 @@
 ## WEEXONE
 
 ## Update
+2016-10-10 更新了WeexOne的编译运行方式
 2016-09-22 更新了WeexOne 兼容了新版本的Weex，还需要解决UI错乱的问题
 
 ## 介绍
@@ -27,23 +28,14 @@
 
 ![enter description here][7]
 
+## Install
+```bash
+npm install
+```
 ## Build & Run
-1. Prerequisites
-	* Download Weex Project Source
-	* Install Node.js 4.0+
-	* Under project root
-		* `npm install`, install project
-2. Run playground, In Android Studio
-	* Open `android/playground `
-	* In `app/java/com.alibaba.weex/WXMainActivity`, modify `CURRENT_IP` to your local IP
-	* Copy WeexOne source folder to `examples` folder
-	* Add WeexOne to `index.we`
-	```javascript
-        {name: 'WeexOne/index', title: 'WeexOne'}
-
-	```
-	* Run app in Android Studio  (Run button)
-	* In Weex project folder run `./start`
+1. `npm run buld`: build all we file into dist/* folder
+2. `npm run dev`: watch file changes of src and automatically build into dist/
+3. `npm run serve`: perview in html5 render through :`http://localhost:12580`
 
 
 
