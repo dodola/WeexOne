@@ -5,12 +5,10 @@
 </template>
 
 <script>
-
-    require('weex-components')
+  require('weex-components');
 
     module.exports = {
         data: {
-            dir: 'examples',
             tabItems: [
                 {
                     index: 0,
@@ -19,7 +17,7 @@
                     icon: "",
                     image: "http://gtms01.alicdn.com/tps/i1/TB1qw.hMpXXXXagXXXX9t7RGVXX-46-46.png",
                     selectedImage: "http://gtms04.alicdn.com/tps/i4/TB16jjPMpXXXXazXVXX9t7RGVXX-46-46.png",
-                    src: "WeexOne/modules/main.js",
+                    src: "modules/main.js",
                     visibility: "visible"
                 },
                 {
@@ -29,7 +27,7 @@
                     icon: "",
                     image: "http://gtms03.alicdn.com/tps/i3/TB1LEn9MpXXXXaUXpXX9t7RGVXX-46-46.png",
                     selectedImage: "http://gtms02.alicdn.com/tps/i2/TB1qysbMpXXXXcnXXXX9t7RGVXX-46-46.png",
-                    src: "WeexOne/modules/read.js",
+                    src: "modules/read.js",
                     visibility: "hidden"
                 },
                 {
@@ -39,13 +37,15 @@
                     icon: "",
                     image: "http://gtms01.alicdn.com/tps/i1/TB1B0v5MpXXXXcvXpXX9t7RGVXX-46-46.png",
                     selectedImage: "http://gtms04.alicdn.com/tps/i4/TB1NxY5MpXXXXcrXpXX9t7RGVXX-46-46.png",
-                    src: "WeexOne/modules/movie.js",
+                    src: "modules/movie.js",
                     visibility: "hidden"
                 }
             ]
         },
         created: function () {
+
             var bundleUrl = this.$getConfig().bundleUrl;
+            console.log("bundleUrl:"+bundleUrl);
             var nativeBase;
             var isAndroidAssets = bundleUrl.indexOf('file://assets/') >= 0;
             var isiOSAssets = bundleUrl.indexOf('file:///') >= 0 && bundleUrl.indexOf('WeexDemo.app') > 0;
@@ -59,9 +59,10 @@
                 if (matches && matches.length >= 2) {
                     host = matches[1];
                 }
-                nativeBase = 'http://' + host + '/' + this.dir + '/build/';
+                nativeBase = 'http://' + host + '/dist/';
+                console.log("nativeBase:"+nativeBase);
             }
-            var h5Base = './' + this.dir + '/build/';
+            var h5Base = 'dist/';
             // in Native
             var base = nativeBase;
             if (typeof window === 'object') {
@@ -71,6 +72,7 @@
 
             for (var i = 0; i < this.tabItems.length; i++) {
                 var tabItem = this.tabItems[i];
+                console.log(base+tabItem.src);
                 tabItem.src = base + tabItem.src;
             }
         },

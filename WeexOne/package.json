@@ -1,0 +1,25 @@
+{
+  "name": "dodola",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --watch",
+    "serve": "serve -p 12580",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+    "dependencies": {
+    "weex-components": "^0.1.3"
+
+},
+  "devDependencies": {
+    "serve": "^1.4.0",
+    "webpack": "^1.13.1",
+    "weex-html5": "0.2.18",
+    "weex-loader": "^0.1.5"
+  }
+}
