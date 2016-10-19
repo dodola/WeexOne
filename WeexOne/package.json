@@ -1,25 +1,29 @@
 {
-  "name": "dodola",
+  "name": "xxx",
   "version": "1.0.0",
-  "description": "",
+  "description": "a weex project",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
     "dev": "webpack --watch",
-    "serve": "serve -p 12580",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "serve -p 12580"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-    "dependencies": {
-    "weex-components": "^0.1.3"
-
-},
+  "keywords": [
+    "weex"
+  ],
+  "author": "fkysly@gmail.com",
+  "license": "MIT",
   "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "eslint": "^3.5.0",
     "serve": "^1.4.0",
-    "webpack": "^1.13.1",
-    "weex-html5": "0.2.18",
-    "weex-loader": "^0.1.5"
+    "webpack": "^1.13.2",
+    "weex-loader": "^0.3.3"
+  },
+  "dependencies": {
+    "weex-html5": "^0.3.2",
+        "weex-components": "^0.2.0"
+
   }
 }

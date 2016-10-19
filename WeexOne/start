@@ -1,0 +1,12 @@
+
+if nc -w 5 -z localhost 12580 ; then
+    echo "Port 12580 already in use, server is running"
+else
+    THIS_DIR=$(dirname "$0")
+    pushd "$THIS_DIR"
+    npm run serve
+
+    open http://localhost:12580/web/index.html
+
+    popd
+fi
