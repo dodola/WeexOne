@@ -5,7 +5,8 @@
 </template>
 
 <script>
-  require('weex-components');
+    require('weex-components');
+    var apis = require('./common/api');
 
     module.exports = {
         data: {
@@ -44,35 +45,12 @@
         },
         created: function () {
 
-            var bundleUrl = this.$getConfig().bundleUrl;
-            console.log("bundleUrl:"+bundleUrl);
-            var nativeBase;
-            var isAndroidAssets = bundleUrl.indexOf('file://assets/') >= 0;
-            var isiOSAssets = bundleUrl.indexOf('file:///') >= 0 && bundleUrl.indexOf('WeexDemo.app') > 0;
-            if (isAndroidAssets) {
-                nativeBase = 'file://assets/';
-            } else if (isiOSAssets) {
-                nativeBase = bundleUrl.substring(0, bundleUrl.lastIndexOf('/') + 1);
-            } else {
-                var host = 'localhost:12580';
-                var matches = /\/\/([^\/]+?)\//.exec(this.$getConfig().bundleUrl);
-                if (matches && matches.length >= 2) {
-                    host = matches[1];
-                }
-                nativeBase = 'http://' + host + '/dist/';
-                console.log("nativeBase:"+nativeBase);
-            }
-            var h5Base = 'dist/';
-            // in Native
-            var base = nativeBase;
-            if (typeof window === 'object') {
-                // in Browser or WebView
-                base = h5Base;
-            }
 
+            var bundleUrl = this.$getConfig().bundleUrl;
+            var base = apis.getBaseUrl(bundleUrl);
             for (var i = 0; i < this.tabItems.length; i++) {
                 var tabItem = this.tabItems[i];
-                console.log(base+tabItem.src);
+                console.log(base + tabItem.src);
                 tabItem.src = base + tabItem.src;
             }
         },
