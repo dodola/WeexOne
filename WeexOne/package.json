@@ -16,6 +16,7 @@
   "devDependencies": {
     "babel-core": "^6.14.0",
     "babel-loader": "^6.2.5",
+    "babel-runtime": "^6.3.19", 
     "eslint": "^3.5.0",
     "serve": "^1.4.0",
     "webpack": "^1.13.2",
