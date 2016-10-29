@@ -39,14 +39,14 @@
     }
 
     var loader = getUrlParam('loader') || 'xhr'
-    var page = getUrlParam('page') || 'dist/main.js'
-
-    window.weex.init({
-      appId: location.href,
-      loader: loader,
-      source: page,
-      rootId: 'weex'
-    })
+    var page = getUrlParam('page') || './dist/main.js'
+    console.log("=========="+getUrlParam('page'));
+  window.weex.init({
+    appId: location.href,
+    loader: loader,
+    source: page,
+    rootId: 'weex',
+  })
   })();
   </script>
 </body>

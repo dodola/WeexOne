@@ -76,16 +76,12 @@ exports.getBaseUrl = function (bundleUrl) {
     }
     else {
         var host = 'localhost:12580';
-        var matches = /\/\/([^\/]+?)\//.exec(this.$getConfig().bundleUrl);
+        var matches = /\/\/([^\/]+?)\//.exec(bundleUrl);
         if (matches && matches.length >= 2) {
             host = matches[1];
         }
         nativeBase = 'http://' + host + '/dist/';
     }
-    var h5Base = './index.html?page=.' + '/dist/';
-    var base = nativeBase;
-    if (typeof window === 'object') {
-        base = h5Base;
-    }
-    return base;
+
+    return nativeBase;
 }

@@ -6,6 +6,7 @@
     <string name="local_url">file://assets/dist/main.js</string>
 
     <component name="richtext">com.alibaba.weex.extend.component.RichText</component>
+    <component name="htmltext">com.alibaba.weex.extend.component.HtmlText</component>
 
     <module name="render">com.alibaba.weex.extend.module.RenderModule</module>
     <module name="event">com.alibaba.weex.extend.module.WXEventModule</module>

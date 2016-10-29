@@ -1,7 +1,7 @@
 {
-  "name": "xxx",
+  "name": "WeexOne",
   "version": "1.0.0",
-  "description": "a weex project",
+  "description": "WeexOne ",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -11,7 +11,7 @@
   "keywords": [
     "weex"
   ],
-  "author": "fkysly@gmail.com",
+  "author": "dinophp@gmail.com",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.14.0",
@@ -24,7 +24,6 @@
   },
   "dependencies": {
     "weex-html5": "^0.3.2",
-        "weex-components": "^0.2.0"
-
+    "weex-components": "^0.2.0"
   }
 }

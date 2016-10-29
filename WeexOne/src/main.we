@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <wxc-tabbar class="tabbar" tab-items={{tabItems}}></wxc-tabbar>
+    <div style="flex-direction: column;">
+        <wxc-tabbar tab-items = {{tabItems}}></wxc-tabbar>
     </div>
 </template>
 
@@ -50,18 +50,13 @@
             var base = apis.getBaseUrl(bundleUrl);
             for (var i = 0; i < this.tabItems.length; i++) {
                 var tabItem = this.tabItems[i];
-                console.log(base + tabItem.src);
                 tabItem.src = base + tabItem.src;
             }
         },
         methods: {
-            ready: function (e) {
-                var vm = this;
-                vm.$on('tabBar.onClick', function (e) {
-                    var detail = e.detail;
-                    nativeLog('tabBar.onClick ' + detail.index);
-                });
-            },
+            created: function (e) {
+
+            }
         }
     }
 </script>
