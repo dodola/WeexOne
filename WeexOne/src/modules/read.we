@@ -16,21 +16,21 @@
                 </slider>
             </cell>
 
-            <cell class="row" repeat="{{readingList}}" index="{{$index}}">
-                <div class="reading-item" if="{{readingList[$index].showType1}}" cid="{{content.content_id}}"
+            <cell class="row" repeat="{{item in readingList}}" index="{{$index}}">
+                <div class="reading-item" if="{{item.showType1}}" cid="{{item.content.content_id}}"
                      onclick="onReadCellClick">
-                    <read-item title="{{content.hp_title}}" author="{{content.author[0].user_name}}"
-                               content="{{content.guide_word}}"></read-item>
+                    <read-item title="{{item.content.hp_title}}" author="{{item.content.author[0].user_name}}"
+                               content="{{item.content.guide_word}}"></read-item>
                 </div>
-                <div class="reading-item" if="{{readingList[$index].showType2}}" cid="{{content.id}}"
+                <div class="reading-item" if="{{item.showType2}}" cid="{{item.content.id}}"
                      onclick="onSerialCellClick">
-                    <read-item title="{{content.title}}" author="{{content.author.user_name}}"
-                               content="{{content.excerpt}}"></read-item>
+                    <read-item title="{{item.content.title}}" author="{{item.content.author.user_name}}"
+                               content="{{item.content.excerpt}}"></read-item>
                 </div>
-                <div class="reading-item" if="{{readingList[$index].showType3}}" cid="{{content.question_id}}"
+                <div class="reading-item" if="{{item.showType3}}" cid="{{item.content.question_id}}"
                      onclick="onQuestionCellClick">
-                    <read-item title="{{content.question_title}}" author="{{content.answer_title}}"
-                               content="{{content.answer_content}}"></read-item>
+                    <read-item title="{{item.content.question_title}}" author="{{item.content.answer_title}}"
+                               content="{{item.content.answer_content}}"></read-item>
                 </div>
             </cell>
 
@@ -232,6 +232,7 @@
             self.getCarouselData();
             self.getReadingIndex(self.currentIndex, false);
             var base = apis.getBaseUrl(self.$getConfig().bundleUrl);
+            console.log("base url:"+base);
             this.baseURL = base;
 
         },

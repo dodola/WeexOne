@@ -80,7 +80,7 @@ exports.getBaseUrl = function (bundleUrl) {
         if (matches && matches.length >= 2) {
             host = matches[1];
         }
-        nativeBase = 'http://' + host + '/dist/';
+        nativeBase = 'http://' + host + '/index.html?page=./dist/';
     }
 
     return nativeBase;
