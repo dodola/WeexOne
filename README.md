@@ -18,6 +18,7 @@ npm install
 2. `npm run dev`: watch file changes of src and automatically build into dist/
 3. `npm run serve`: perview in html5 render through :`http://localhost:12580`
 
+
 **OR**
 
 1. `weexone`:build all we file into dist/* folder,and start default server with 12580 port
@@ -27,6 +28,10 @@ npm install
   install apk to device    
   run weex playground    
  
+## Run with weex playground app
+1. open weex playground app
+2. open qrcode scan ,scan `http://your weex server ip/dist/main.js`
+
 ## 介绍
 
 端午的时候收到了Weex团队发的一个Weex Workshop的邮件，然后就利用这两天使用Weex做了一款[one 一个]的客户端。源代码在：[https://github.com/dodola/WeexOne][1]
