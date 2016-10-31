@@ -62,7 +62,7 @@ exports.getMovieDetail = function (id, callback) {
 
 };
 
-exports.getBaseUrl = function (bundleUrl,isnav) {
+exports.getBaseUrl = function (bundleUrl, isnav) {
     bundleUrl = new String(bundleUrl);
     var nativeBase;
     var isAndroidAssets = bundleUrl.indexOf('file://assets/') >= 0;
@@ -80,8 +80,13 @@ exports.getBaseUrl = function (bundleUrl,isnav) {
         if (matches && matches.length >= 2) {
             host = matches[1];
         }
+
         //此处需注意一下,tabbar 用的直接是jsbundle 的路径,但是navigator是直接跳转到新页面上的.
-        nativeBase = isnav ? 'http://' + host + '/index.html?page=./dist/' : '/dist/';
+        if (typeof window === 'object') {
+            nativeBase = isnav ? 'http://' + host + '/index.html?page=./dist/' : '/dist/';
+        } else {
+            nativeBase = 'http://' + host + '/dist/';
+        }
     }
 
     return nativeBase;
