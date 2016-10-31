@@ -84,8 +84,7 @@
                 }
             });
 
-            var bundleUrl = this.$getConfig().bundleUrl;
-            this.baseURL = apis.getBaseUrl(bundleUrl);
+            this.baseURL = apis.getBaseUrl(bundleUrl,true);
 
         },
         methods: {

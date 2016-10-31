@@ -114,7 +114,7 @@
             imageList: [],
             readingList: [],
             showListItem: false,
-            baseURL: '',
+            baseURL: ''
         },
         computed: {},
         methods: {
@@ -231,8 +231,7 @@
             self.currentIndex = 0;
             self.getCarouselData();
             self.getReadingIndex(self.currentIndex, false);
-            var base = apis.getBaseUrl(self.$getConfig().bundleUrl);
-            console.log("base url:"+base);
+            var base = apis.getBaseUrl(self.$getConfig().bundleUrl, true);
             this.baseURL = base;
 
         },

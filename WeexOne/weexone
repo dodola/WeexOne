@@ -1,0 +1,62 @@
+#!/bin/bash
+# ------------------------------------------------------------------
+# [Author] dodola
+#          weexone build script
+# ------------------------------------------------------------------
+
+SUBJECT=weex-one-script
+VERSION=0.1.0
+cmd=$1
+param=$2
+command="command_$1"
+
+# -----------------------------------------------------------------
+LOCK_FILE=/tmp/${SUBJECT}.lock
+
+if [ -f "$LOCK_FILE" ]; then
+echo "Script is already running"
+exit
+fi
+
+# -----------------------------------------------------------------
+trap "rm -f $LOCK_FILE" EXIT
+touch $LOCK_FILE
+
+# -----------------------------------------------------------------
+
+function command_build {
+
+npm run build
+
+if nc -w 5 -z localhost 12580 ; then
+    echo "Port 12580 already in use, server is running"
+else
+    THIS_DIR=$(dirname "$0")
+    pushd "$THIS_DIR"
+    npm run serve
+
+    open http://localhost:12580/index.html
+
+    popd
+fi
+
+}
+##启动android
+function command_android {
+echo "======build weexone======"
+npm run build
+rm -rf android/playground/app/src/main/assets/dist/
+cp -R dist/ android/playground/app/src/main/assets/dist/
+echo "======build android======"
+cd android/playground/
+gradlew assembleDebug
+adb install -r  app/build/outputs/apk/playground.apk
+adb shell am start -n com.alibaba.weex/.SplashActivity
+}
+# -----------------------------------------------------------------
+# -----------------------------------------------------------------
+if [ -n "$(type -t ${command})" ] && [ "$(type -t ${command})" = function ]; then
+   ${command}
+else
+  command_build
+fi

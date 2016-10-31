@@ -1,6 +1,6 @@
 <template>
     <div style="flex-direction: column;">
-        <wxc-tabbar tab-items = {{tabItems}}></wxc-tabbar>
+        <wxc-tabbar tab-items={{tabItems}}></wxc-tabbar>
     </div>
 </template>
 
@@ -44,7 +44,6 @@
             ]
         },
         created: function () {
-
 
             var bundleUrl = this.$getConfig().bundleUrl;
             var base = apis.getBaseUrl(bundleUrl);
