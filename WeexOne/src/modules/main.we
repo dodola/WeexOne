@@ -78,7 +78,7 @@
         color: white;
         text-align: left;
         font-size: 70px;
-        line-height: 48px;
+        line-height: 70px;
         margin-bottom: 0px;
         margin-left: 20px;
         margin-right: 20px;
@@ -158,10 +158,10 @@
 
                     for (var i = 0; i < tempData.length; i++) {
                         var datap = tempData[i];
-                        var hpMarketTime = new Date(datap.hp_makettime);
+                        var hpMarketTime = new Date(datap.hp_makettime.split(' ')[0]);
                         datap.hp_day = hpMarketTime.getDate();
                         datap.hp_month = monthdata[hpMarketTime.getMonth()];
-                        datap.hp_year = hpMarketTime.getYear() + 1900;
+                        datap.hp_year = hpMarketTime.getFullYear();
                     }
                     self.showMainSlider=true;
 
