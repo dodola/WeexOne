@@ -17,18 +17,30 @@ public class WXEventModule extends WXModule {
     if (TextUtils.isEmpty(url)) {
       return;
     }
-    String scheme = Uri.parse(url).getScheme();
-    StringBuilder builder = new StringBuilder();
-    if (TextUtils.equals("http",scheme) || TextUtils.equals("https",scheme) || TextUtils.equals("file",scheme)) {
-      builder.append(url);
+    Intent intent = new Intent(Intent.ACTION_VIEW);
+    Uri uri = Uri.parse(url);
+    String scheme = uri.getScheme();
+
+    if (TextUtils.equals("tel", scheme)) {
+
+    } else if (TextUtils.equals("sms", scheme)) {
+
+    } else if (TextUtils.equals("mailto", scheme)) {
+
+    } else if (TextUtils.equals("http", scheme) ||
+        TextUtils.equals("https",
+        scheme)) {
+      intent.putExtra("isLocal", false);
+      intent.addCategory(WEEX_CATEGORY);
+    } else if (TextUtils.equals("file", scheme)) {
+      intent.putExtra("isLocal", true);
+      intent.addCategory(WEEX_CATEGORY);
     } else {
-      builder.append("http:");
-      builder.append(url);
+      intent.addCategory(WEEX_CATEGORY);
+      uri = Uri.parse(new StringBuilder("http:").append(url).toString());
     }
 
-    Uri uri = Uri.parse(builder.toString());
-    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-    intent.addCategory(WEEX_CATEGORY);
+    intent.setData(uri);
     mWXSDKInstance.getContext().startActivity(intent);
   }
 }

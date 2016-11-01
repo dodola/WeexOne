@@ -3,12 +3,13 @@
 <app_config version="1">
     <bool name="launch_locally">true</bool>
     <string name="launch_url">http://127.0.0.1:8080/dist/index.js</string>
+    <!--<string name="launch_url">http://30.30.29.7:8088/example/index.js</string>-->
     <string name="local_url">file://assets/dist/main.js</string>
 
     <component name="richtext">com.alibaba.weex.extend.component.RichText</component>
-    <component name="htmltext">com.alibaba.weex.extend.component.HtmlText</component>
 
     <module name="render">com.alibaba.weex.extend.module.RenderModule</module>
     <module name="event">com.alibaba.weex.extend.module.WXEventModule</module>
     <module name="myModule">com.alibaba.weex.extend.module.MyModule</module>
+    <module name="device">com.alibaba.weex.extend.module.DeviceModule</module>
 </app_config>

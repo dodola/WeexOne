@@ -105,15 +105,15 @@ public class AppConfig {
     return sComponents;
   }
 
-  public static void setComponents(HashMap<String, String> sComponents) {
-    AppConfig.sComponents = sComponents;
+  public static void setComponents(HashMap<String, String> components) {
+    AppConfig.sComponents = components;
   }
 
   public static HashMap<String, String> getModules() {
     return sModules;
   }
 
-  public static void setModules(HashMap<String, String> sModules) {
-    AppConfig.sModules = sModules;
+  public static void setModules(HashMap<String, String> modules) {
+    AppConfig.sModules = modules;
   }
 }

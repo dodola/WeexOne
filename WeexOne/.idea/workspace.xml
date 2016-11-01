@@ -2,7 +2,530 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64fd144b-6205-4e42-902d-92c18ca048ba" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo.xcworkspace/xcuserdata/godsong.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo.xcworkspace/xcuserdata/zaoxian.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-29.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-29@2x-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-29@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-29@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-40@2x-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-40@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-40@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-60@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-60@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-76.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-76@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/AppIcon.appiconset/Icon-83.5@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Default-4.7@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Default@2x-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Default@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Default@3x-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Default@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/back.imageset/back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/back.imageset/back@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/back.imageset/back@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/reload.imageset/reload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/reload.imageset/reload@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/reload.imageset/reload@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/scan.imageset/scan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/scan.imageset/scan@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/scan.imageset/scan@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/weex-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/weex.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/weex@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android.config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/appframework/src/main/java/com/alibaba/weex/commons/util/CommonUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/appframework/src/main/java/com/alibaba/weex/commons/util/ExtensionUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/appframework/src/main/java/com/alibaba/weex/extend/module/DeviceModule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/animation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/component/a-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/component/countdown-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/component/image-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/component/input-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/component/list/list-basic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/component/list/list-demo-horizon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/component/list/list-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/component/marquee-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/component/navigator-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/component/scroller-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/component/slider/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/component/slider/slider-item.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/component/slider/slider-page.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/component/tabbar/tabbar-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/component/tabbar/tabbar-item.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/component/text-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/component/video-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/component/web-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/hello.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/iconfont.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/image-demo2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/module/clipboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/module/instance-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/module/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/module/storage-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/module/stream-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/showcase/calculator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/showcase/dropdown/dropdown-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/showcase/dropdown/we-dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/showcase/minesweeper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/showcase/new-fashion/banner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/showcase/new-fashion/banners.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/showcase/new-fashion/brand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/showcase/new-fashion/category.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/showcase/new-fashion/coupon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/showcase/new-fashion/fashion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/showcase/new-fashion/goods.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/showcase/new-fashion/headlines.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/showcase/new-fashion/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/showcase/new-fashion/link.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/showcase/new-fashion/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/showcase/new-fashion/match.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/showcase/new-fashion/resource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/showcase/new-fashion/scene.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/showcase/ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/style/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/style/style-box.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/style/style-flex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/style/style-item.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/syntax/hello-world-1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/syntax/hello-world-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/syntax/hello-world-3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/syntax/hello-world-4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/syntax/hello-world-5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/syntax/hello-world.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/syntax/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/syntax/script-component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/syntax/script-data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/syntax/script-events.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/syntax/script-instance.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/syntax/script-lifecycle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/syntax/script-module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/syntax/script-options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/syntax/template-class.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/syntax/template-content.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/syntax/template-event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/syntax/template-if.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/syntax/template-repeat-update.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/syntax/template-repeat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/syntax/template-style.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/playground/app/src/main/assets/template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios.config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/Podfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo.xcodeproj/xcshareddata/xcschemes/WeexDemo.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo.xcodeproj/xcshareddata/xcschemes/WeexUITestDemo.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo.xcodeproj/xcuserdata/godsong.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo.xcodeproj/xcuserdata/zaoxian.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo.xcworkspace/contents.xcworkspacedata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/AppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/AppDelegate.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/AppIcon.appiconset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/LaunchImage.launchimage/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/back.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/reload.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Assets.xcassets/scan.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/DemoBaseViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/DemoBaseViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/DemoDefine.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Images.xcassets/Brand Assets.launchimage/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Scanner/WXScannerVC.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/Scanner/WXScannerVC.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/UIViewController+WXDemoNaviBar.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/UIViewController+WXDemoNaviBar.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/WXDemoViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/WXDemoViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/debug/WXATLoggerPlugin.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/debug/WXATLoggerPlugin.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/debug/WXATViewHierarchyPlugin.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/debug/WXATViewHierarchyPlugin.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/extend/component/WXSelectComponent.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/extend/component/WXSelectComponent.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/extend/handler/WXImgLoaderDefaultImpl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/extend/handler/WXImgLoaderDefaultImpl.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/extend/module/WXEventModule.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/extend/module/WXEventModule.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemo/main.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemoTests/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexDemoTests/WeexDemoTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexUITestDemo-Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexUITestDemoUITests/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/WeexUITestDemoUITests/WeexUITestDemoUITests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/animation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/component/a-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/component/countdown-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/component/image-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/component/list/list-basic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/component/list/list-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/component/marquee-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/component/navigator-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/component/scroller-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/component/slider/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/component/slider/slider-item.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/component/slider/slider-page.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/component/tabbar/tabbar-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/component/tabbar/tabbar-item.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/component/text-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/component/video-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/component/web-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/hello.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/include/example-list-item.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/include/example-list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/module/instance-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/module/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/module/stream-demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/showcase/calculator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/showcase/new-fashion/banner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/showcase/new-fashion/banners.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/showcase/new-fashion/brand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/showcase/new-fashion/category.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/showcase/new-fashion/coupon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/showcase/new-fashion/fashion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/showcase/new-fashion/goods.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/showcase/new-fashion/headlines.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/showcase/new-fashion/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/showcase/new-fashion/link.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/showcase/new-fashion/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/showcase/new-fashion/match.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/showcase/new-fashion/resource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/showcase/new-fashion/scene.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/showcase/ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/style/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/style/style-box.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/style/style-flex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/style/style-item.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/playground/bundlejs/template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/start" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/appframework/src/main/java/com/alibaba/weex/commons/util/AssertUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/appframework/src/main/java/com/alibaba/weex/commons/util/ExtensionManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/appframework/src/main/java/com/alibaba/weex/commons/util/ScreenUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/ApplicationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/WeappJsBaseTestCase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/pertest/WeexPerTestCaseListPerfWithAppendTree.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_AHref_A_Href.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_A_Border_Bottom_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_A_Border_Bottom_Left_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_A_Border_Bottom_Right_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_A_Border_Bottom_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_A_Border_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_A_Border_Left_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_A_Border_Left_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_A_Border_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_A_Border_Right_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_A_Border_Right_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_A_Border_Style.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_A_Border_Top_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_A_Border_Top_Left_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_A_Border_Top_Right_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_A_Border_Top_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_A_Border_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Div_Border_Bottom_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Div_Border_Bottom_Left_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Div_Border_Bottom_Right_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Div_Border_Bottom_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Div_Border_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Div_Border_Left_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Div_Border_Left_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Div_Border_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Div_Border_Right_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Div_Border_Right_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Div_Border_Style.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Div_Border_Top_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Div_Border_Top_Left_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Div_Border_Top_Right_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Div_Border_Top_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Div_Border_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Image_Border_Bottom_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Image_Border_Bottom_Left_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Image_Border_Bottom_Right_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Image_Border_Bottom_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Image_Border_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Image_Border_Left_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Image_Border_Left_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Image_Border_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Image_Border_Right_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Image_Border_Right_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Image_Border_Style.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Image_Border_Top_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Image_Border_Top_Left_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Image_Border_Top_Right_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Image_Border_Top_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Image_Border_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Input_Border_Bottom_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Input_Border_Bottom_Left_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Input_Border_Bottom_Right_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Input_Border_Bottom_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Input_Border_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Input_Border_Left_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Input_Border_Left_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Input_Border_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Input_Border_Right_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Input_Border_Right_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Input_Border_Style.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Input_Border_Top_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Input_Border_Top_Left_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Input_Border_Top_Right_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Input_Border_Top_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Input_Border_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Switch_Border_Bottom_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Switch_Border_Bottom_Left_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Switch_Border_Bottom_Right_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Switch_Border_Bottom_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Switch_Border_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Switch_Border_Left_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Switch_Border_Left_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Switch_Border_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Switch_Border_Right_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Switch_Border_Right_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Switch_Border_Style.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Switch_Border_Top_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Switch_Border_Top_Left_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Switch_Border_Top_Right_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Switch_Border_Top_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Switch_Border_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Text_Border_Bottom_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Text_Border_Bottom_Left_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Text_Border_Bottom_Right_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Text_Border_Bottom_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Text_Border_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Text_Border_Left_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Text_Border_Left_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Text_Border_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Text_Border_Right_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Text_Border_Right_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Text_Border_Style.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Text_Border_Top_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Text_Border_Top_Left_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Text_Border_Top_Right_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Text_Border_Top_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Text_Border_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Video_Border_Bottom_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Video_Border_Bottom_Left_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Video_Border_Bottom_Right_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Video_Border_Bottom_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Video_Border_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Video_Border_Left_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Video_Border_Left_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Video_Border_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Video_Border_Right_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Video_Border_Right_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Video_Border_Style.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Video_Border_Top_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Video_Border_Top_Left_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Video_Border_Top_Right_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Video_Border_Top_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Video_Border_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Web_Border_Bottom_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Web_Border_Bottom_Left_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Web_Border_Bottom_Right_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Web_Border_Bottom_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Web_Border_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Web_Border_Left_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Web_Border_Left_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Web_Border_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Web_Border_Right_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Web_Border_Right_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Web_Border_Style.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Web_Border_Top_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Web_Border_Top_Left_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Web_Border_Top_Right_Radius.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Web_Border_Top_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Border_Web_Border_Width.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonAttribute_A_If.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonAttribute_Div_If.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonAttribute_Image_If.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonAttribute_Input_If.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonAttribute_Switch_If.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonAttribute_Text_If.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonAttribute_Video_If.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonAttribute_Web_If.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonEvent_A_Onclick.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonEvent_Div_Onclick.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonEvent_Image_Onclick.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonEvent_Input_Onclick.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonEvent_Switch_Onclick.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonEvent_Text_Onclick.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonEvent_Video_Onclick.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonEvent_Web_Onclick.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonStyle_A_Background_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonStyle_A_Widthandheight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonStyle_Div_Background_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonStyle_Div_Widthandheight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonStyle_Image_Background_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonStyle_Image_Widthandheight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonStyle_Input_Background_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonStyle_Input_Widthandheight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonStyle_Switch_Background_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonStyle_Switch_Widthandheight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonStyle_Text_Background_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonStyle_Text_Widthandheight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonStyle_Video_Background_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonStyle_Video_Widthandheight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonStyle_Web_Background_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_CommonStyle_Web_Widthandheight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Gesture_Div_Click.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Gesture_Div_Conflict.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Gesture_Div_Longpress.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Gesture_Div_Pan.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Gesture_Div_Swipe.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Gesture_Div_Touch.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Image_Image_Onload.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Image_Image_Resize.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Image_Image_Src.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Input_Input_Autofocus.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Input_Input_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Input_Input_Disabled.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Input_Input_Event.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Input_Input_Font_Size.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Input_Input_Font_Style.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Input_Input_Font_Weight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Input_Input_Placeholder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Input_Input_Placeholder_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Input_Input_Text_Align.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Input_Input_Type.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Input_Input_Value.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_A_Margin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_A_Margin_Bottom.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_A_Margin_Left.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_A_Margin_Right.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_A_Margin_Top.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Div_Margin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Div_Margin_Bottom.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Div_Margin_Left.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Div_Margin_Right.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Div_Margin_Top.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Image_Margin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Image_Margin_Bottom.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Image_Margin_Left.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Image_Margin_Right.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Image_Margin_Top.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Input_Margin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Input_Margin_Bottom.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Input_Margin_Left.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Input_Margin_Right.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Input_Margin_Top.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Switch_Margin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Switch_Margin_Bottom.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Switch_Margin_Left.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Switch_Margin_Right.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Switch_Margin_Top.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Text_Margin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Text_Margin_Bottom.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Text_Margin_Left.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Text_Margin_Right.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Text_Margin_Top.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Video_Margin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Video_Margin_Bottom.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Video_Margin_Left.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Video_Margin_Right.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Video_Margin_Top.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Web_Margin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Web_Margin_Bottom.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Web_Margin_Left.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Web_Margin_Right.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Margin_Web_Margin_Top.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Switch_Switch_Checked.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Switch_Switch_Onchange.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Text_Text_Color.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Text_Text_Font_Size.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Text_Text_Font_Style.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Text_Text_Font_Weight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Text_Text_Line_Height.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Text_Text_Text_Align.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Text_Text_Text_Decoration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Text_Text_Text_Overflow.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Text_Text_Value.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Video_Video_Auto_Play.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Video_Video_Event.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Video_Video_Play_Status.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Video_Video_Src.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Web_Web_Event.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AG/AG_Web_Web_Src.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AHref/WeexUiTestCaseTCAHrefEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AHref/WeexUiTestCaseTCAHrefStyle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AHref/WeexUiTestCaseTCAHrefUpdate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Animation/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_AppendTree/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_BizComponet/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_BizModule/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Color/WeexUiTestCaseTcColorType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Color/WeexUiTestCaseTcColorUpdate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_DataBind/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Downgrade/WeexUiTestCaseTcDowngradeAppVFalse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Downgrade/WeexUiTestCaseTcDowngradeAppVTrue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Downgrade/WeexUiTestCaseTcDowngradeDevMFalse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Downgrade/WeexUiTestCaseTcDowngradeDevMTrue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Downgrade/WeexUiTestCaseTcDowngradeOSVFalse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Downgrade/WeexUiTestCaseTcDowngradeOSVTrue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Downgrade/WeexUiTestCaseTcDowngradeWeexVFalse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Downgrade/WeexUiTestCaseTcDowngradeWeexVTrue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Gesture/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Image/TC_image_update_Resize.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Image/WeexUiTestCaseTcImageUpdate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Input/WeexUiTestCaseTcInputEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Input/WeexUiTestCaseTcInputPlaceholder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Input/WeexUiTestCaseTcInputStyle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Input/WeexUiTestCaseTcInputType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_List/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Monitor/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_PopBox/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Scroller/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Select/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Slider/WeexUiTestCaseTcSlider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Style/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Switch/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Text/WeexUiTestCaseTcTextStyleColumn.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Text/WeexUiTestCaseTcTextStyleOwn.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Text/WeexUiTestCaseTcTextStyleRow.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Text/WeexUiTestCaseTcTextType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Video/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/TC_Web/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/uitest/WeexUiTestCaseTcElementOpt.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/util/Falcon.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/util/ScreenShot.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/util/SdCardHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/util/TestFlow.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/androidTest/java/com/alibaba/weex/util/ViewUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/main/java/com/alibaba/weex/IndexActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/main/res/layout/activity_index.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/main/res/layout/content_wx_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/playground/app/src/main/res/menu/refresh.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/weexone" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/appframework/src/main/java/com/alibaba/weex/commons/AbsWeexActivity.java" afterPath="$PROJECT_DIR$/android/appframework/src/main/java/com/alibaba/weex/commons/AbsWeexActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/appframework/src/main/java/com/alibaba/weex/commons/util/AppConfig.java" afterPath="$PROJECT_DIR$/android/appframework/src/main/java/com/alibaba/weex/commons/util/AppConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/appframework/src/main/java/com/alibaba/weex/constants/Constants.java" afterPath="$PROJECT_DIR$/android/appframework/src/main/java/com/alibaba/weex/constants/Constants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/appframework/src/main/java/com/alibaba/weex/extend/module/WXEventModule.java" afterPath="$PROJECT_DIR$/android/appframework/src/main/java/com/alibaba/weex/extend/module/WXEventModule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/playground/app/build.gradle" afterPath="$PROJECT_DIR$/android/playground/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/playground/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/playground/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/playground/app/src/main/java/com/alibaba/weex/SplashActivity.java" afterPath="$PROJECT_DIR$/android/playground/app/src/main/java/com/alibaba/weex/SplashActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/playground/app/src/main/java/com/alibaba/weex/WXApplication.java" afterPath="$PROJECT_DIR$/android/playground/app/src/main/java/com/alibaba/weex/WXApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/playground/app/src/main/java/com/alibaba/weex/WXPageActivity.java" afterPath="$PROJECT_DIR$/android/playground/app/src/main/java/com/alibaba/weex/WXPageActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/playground/app/src/main/res/layout/activity_wxpage.xml" afterPath="$PROJECT_DIR$/android/playground/app/src/main/res/layout/activity_wxpage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/playground/app/src/main/res/values-zh-rCN/strings.xml" afterPath="$PROJECT_DIR$/android/playground/app/src/main/res/values-zh-rCN/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/playground/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/android/playground/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/playground/app/src/main/res/xml/app_config.xml" afterPath="$PROJECT_DIR$/android/playground/app/src/main/res/xml/app_config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/playground/build.gradle" afterPath="$PROJECT_DIR$/android/playground/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/playground/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/android/playground/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/api.js" afterPath="$PROJECT_DIR$/src/common/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/modules/main.we" afterPath="$PROJECT_DIR$/src/modules/main.we" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="WeexOne.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,31 +547,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="weexone" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weexone">
+      <file leaf-file-name="start" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/start">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+            <state relative-caret-position="195">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.we" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main.we">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="50" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
+            <state relative-caret-position="169">
+              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -57,8 +570,28 @@
       <file leaf-file-name="api.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/common/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+            <state relative-caret-position="268">
+              <caret line="87" column="46" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.we" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.we">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -95,13 +628,15 @@
         <option value="$PROJECT_DIR$/modules/movie.we" />
         <option value="$PROJECT_DIR$/modules/read.we" />
         <option value="$PROJECT_DIR$/common/api.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main.we" />
         <option value="$PROJECT_DIR$/src/modules/carouse-list.we" />
         <option value="$PROJECT_DIR$/src/modules/read.we" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/start" />
         <option value="$PROJECT_DIR$/weexone" />
+        <option value="$PROJECT_DIR$/src/modules/main.we" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/start" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/common/api.js" />
       </list>
     </option>
@@ -116,9 +651,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1532" />
-    <option name="y" value="113" />
-    <option name="width" value="1239" />
+    <option name="x" value="38" />
+    <option name="y" value="23" />
+    <option name="width" value="1242" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -146,8 +681,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -176,7 +709,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -191,10 +724,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -216,22 +745,10 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeexOne" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeexOne" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,7 +756,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v5.7.0/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../weex/examples" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="76" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="92" />
@@ -258,13 +775,14 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/modules" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/modules" />
       <recent name="$PROJECT_DIR$/res" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/modules" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -334,7 +852,8 @@
       <workItem from="1477789644300" duration="88000" />
       <workItem from="1477789761385" duration="1856000" />
       <workItem from="1477882255106" duration="6289000" />
-      <workItem from="1477893410812" duration="11000" />
+      <workItem from="1477893410812" duration="5750000" />
+      <workItem from="1478001259290" duration="3007000" />
     </task>
     <task id="LOCAL-00001" summary="删除无效文件">
       <created>1477790580364</created>
@@ -361,23 +880,23 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69293000" />
+    <option name="totallyTimeSpent" value="78039000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1532" y="113" width="1239" height="777" extended-state="0" />
-    <editor active="true" />
+    <frame x="38" y="23" width="1242" height="777" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2932331" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29583332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31678832" sideWeight="0.50292397" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32751092" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3270073" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24979115" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270073" sideWeight="0.49707603" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44671533" sideWeight="0.49707603" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -411,11 +930,50 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/modules/carouse-list.we">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/essay-detail.we">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/question-detail.we">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/read.we">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3375">
+          <caret line="225" column="19" selection-start-line="225" selection-start-column="19" selection-end-line="225" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/carouse-item.we">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/weexone">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -423,7 +981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -447,7 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -491,17 +1047,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/main.we">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-870">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/weex-html5/dist/weex.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -533,30 +1083,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/essay-detail.we">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/carouse-list.we">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-327">
-          <caret line="86" column="57" selection-start-line="86" selection-start-column="57" selection-end-line="86" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -564,18 +1090,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/read.we">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="225" column="19" selection-start-line="225" selection-start-column="19" selection-end-line="225" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weexone">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -583,22 +1101,99 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/carouse-list.we">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/carouse-item.we">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/question-detail.we">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/read.we">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="225" column="19" selection-start-line="225" selection-start-column="19" selection-end-line="225" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/essay-detail.we">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/main.we">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#image#0;n#div#0;n#slider#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#slider#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#slider#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.we">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="50" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
+        <state relative-caret-position="118">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+        <state relative-caret-position="268">
+          <caret line="87" column="46" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
           <folding />
         </state>
       </provider>

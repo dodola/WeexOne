@@ -4,8 +4,10 @@ public class Constants {
 
 //  public static final String BUNDLE_URL = "http://t.cn?_wx_tpl=http://h5.waptest.taobao.com/app/weextc031/build/TC__Home.js";
   public static final String BUNDLE_URL = "http://t.cn?_wx_tpl=http://g.tbcdn.cn/weex/weex-tc/0.1.0/build/TC__Home.js";
+  public static final String TEST_BUNDLE_URL = BUNDLE_URL;
   public static final String WEEX_SAMPLES_KEY = "?weex-samples";
   public static final String WEEX_TPL_KEY = "_wx_tpl";
+  public static final String PARAM_BUNDLE_URL = "bundleUrl";
 
 
   //hot refresh

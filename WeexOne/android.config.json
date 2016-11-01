@@ -1,0 +1,6 @@
+{
+  "AppName":"WeexOne",
+  "AppId":"com.dodola.weexone",
+  "SplashText":"Hello\nWeex",
+  "WeexBundle":"main.js"
+}

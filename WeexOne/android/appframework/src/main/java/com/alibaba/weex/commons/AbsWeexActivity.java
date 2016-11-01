@@ -221,8 +221,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.alibaba.weex.commons.util.AssertUtil;
-import com.alibaba.weex.commons.util.ScreenUtil;
+import com.alibaba.weex.commons.util.CommonUtils;
 import com.taobao.weex.IWXRenderListener;
 import com.taobao.weex.WXSDKEngine;
 import com.taobao.weex.WXSDKInstance;
@@ -241,7 +240,8 @@ public abstract class AbsWeexActivity extends AppCompatActivity implements IWXRe
   private WxReloadListener mReloadListener;
   private WxRefreshListener mRefreshListener;
   private String mUrl;// "http://your_current_IP:12580/examples/build/index.js";
-
+  private String mPageName = TAG;
+  protected Boolean isLocalUrl = false;
   @Override
   protected void onCreate(@Nullable Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -277,7 +277,7 @@ public abstract class AbsWeexActivity extends AppCompatActivity implements IWXRe
   }
 
   protected void renderPageByURL(String url, String jsonInitData) {
-    AssertUtil.throwIfNull(mContainer, new RuntimeException("Can't render page, container is null"));
+    CommonUtils.throwIfNull(mContainer, new RuntimeException("Can't render page, container is null"));
     Map<String, Object> options = new HashMap<>();
     options.put(WXSDKInstance.BUNDLE_URL, url);
     mInstance.renderByUrl(
@@ -285,13 +285,13 @@ public abstract class AbsWeexActivity extends AppCompatActivity implements IWXRe
         url,
         options,
         jsonInitData,
-        ScreenUtil.getDisplayWidth(this),
-        ScreenUtil.getDisplayHeight(this),
+        CommonUtils.getDisplayWidth(this),
+        CommonUtils.getDisplayHeight(this),
         WXRenderStrategy.APPEND_ASYNC);
   }
 
-  protected String getPageName() {
-    return TAG;
+  public String getPageName() {
+    return mPageName;
   }
 
   @Override
@@ -460,6 +460,10 @@ public abstract class AbsWeexActivity extends AppCompatActivity implements IWXRe
           (!TextUtils.equals(scheme, "http") && !TextUtils.equals(scheme, "https"));
     }
     return isLocalPage;
+  }
+
+  public void setPageName(String pageName) {
+    mPageName = pageName;
   }
 
   public interface WxReloadListener {

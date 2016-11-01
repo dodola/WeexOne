@@ -17,6 +17,7 @@
 <resources>
   <string name="app_name">WEEX</string>
 
+  <string name="capture_qrcode_prompt">请将条码置于取景框内扫描</string>
   <string name="cpu_not_support_tip">对不起,您当前的设备是X86架构.\n我们只支持ARM架构的设备!</string>
 
 </resources>

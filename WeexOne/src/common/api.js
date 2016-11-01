@@ -75,7 +75,7 @@ exports.getBaseUrl = function (bundleUrl, isnav) {
         nativeBase = bundleUrl.substring(0, bundleUrl.lastIndexOf('/') + 1);
     }
     else {
-        var host = 'localhost:12580';
+        var host = 'localhost:8080';
         var matches = /\/\/([^\/]+?)\//.exec(bundleUrl);
         if (matches && matches.length >= 2) {
             host = matches[1];
@@ -83,7 +83,7 @@ exports.getBaseUrl = function (bundleUrl, isnav) {
 
         //此处需注意一下,tabbar 用的直接是jsbundle 的路径,但是navigator是直接跳转到新页面上的.
         if (typeof window === 'object') {
-            nativeBase = isnav ? 'http://' + host + '/index.html?page=./dist/' : '/dist/';
+            nativeBase = isnav ? 'http://' + host + '/web/index.html?page=../dist/' : '/dist/';
         } else {
             nativeBase = 'http://' + host + '/dist/';
         }

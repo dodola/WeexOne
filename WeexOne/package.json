@@ -1,22 +1,21 @@
 {
-  "name": "WeexOne",
+  "name": "one",
   "version": "1.0.0",
-  "description": "WeexOne ",
-  "main": "index.js",
+  "description": "a weex project",
+  "main": "main.js",
   "scripts": {
     "build": "webpack",
     "dev": "webpack --watch",
-    "serve": "serve -p 12580"
+    "serve": "serve -p 8080"
   },
   "keywords": [
     "weex"
   ],
-  "author": "dinophp@gmail.com",
+  "author": "fkysly@gmail.com",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.14.0",
     "babel-loader": "^6.2.5",
-    "babel-runtime": "^6.3.19", 
     "eslint": "^3.5.0",
     "serve": "^1.4.0",
     "webpack": "^1.13.2",
@@ -24,6 +23,10 @@
   },
   "dependencies": {
     "weex-html5": "^0.3.2",
-    "weex-components": "^0.2.0"
+    "weex-components":"*"
+  },
+  "optionalDependencies":{
+    "ios-deploy": "^1.9.0"
   }
+
 }

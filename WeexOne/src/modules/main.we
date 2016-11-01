@@ -1,23 +1,20 @@
 <template>
-    <div>
-        <scroller class="content">
-            <slider class="slider" append="tree" auto-play="false" onchange="sliderChange" id="imageSlider"
-                    if="{{showMainSlider}}"
-                    style="height:{{deviceHeight}}px">
-                <div repeat="{{imageList}}" class="slider">
-                    <image src="{{hp_img_url}}" style="height:{{deviceHeight}}px"
-                           class="home-img" resize="cover" onclick="onMainImageClick"></image>
-                    <div class="sentence-bg" style="height:{{deviceHeight}}px"></div>
-                    <div style="align-items:flex-end;flex-direction: row;height:{{deviceHeight}}px">
-                        <div id="img_info{{$index}}">
-                            <text class="day">{{hp_day}}</text>
-                            <text class="month"> {{hp_title}} | {{hp_month}} {{hp_year}}</text>
-                            <text class="text-content-short">{{hp_content}}</text>
-                        </div>
+    <div class="">
+        <slider class="slider" append="tree" auto-play="false" onchange="sliderChange" id="imageSlider"
+                if="{{showMainSlider}}">
+            <div repeat="{{imageList}}" class="slider">
+                <image src="{{hp_img_url}}" style="height:{{deviceHeight}}px"
+                       class="home-img" resize="cover" onclick="onMainImageClick"></image>
+                <div class="sentence-bg" style="height:{{deviceHeight}}px"></div>
+                <div style="align-items:flex-end;flex-direction: row;height:{{deviceHeight}}px">
+                    <div id="img_info{{$index}}">
+                        <text class="day">{{hp_day}}</text>
+                        <text class="month"> {{hp_title}} | {{hp_month}} {{hp_year}}</text>
+                        <text class="text-content-short">{{hp_content}}</text>
                     </div>
                 </div>
-            </slider>
-        </scroller>
+            </div>
+        </slider>
         <nav-bar id="nav" title="{{nav_title}}"></nav-bar>
         <div if="showMenu"
              id="menuDiv"
@@ -66,6 +63,13 @@
 
     .slider {
         width: 750px;
+        color: #353535;
+        background-color: #666;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
     }
 
     .sentence-bg {
@@ -148,7 +152,7 @@
         methods: {
             getHomeData: function (dateStr) {
                 var self = this;
-                self.showMainSlider=false;
+                self.showMainSlider = false;
                 self.imageList = [];
                 apis.getHome(dateStr, function (retdata) {
 
@@ -163,7 +167,7 @@
                         datap.hp_month = monthdata[hpMarketTime.getMonth()];
                         datap.hp_year = hpMarketTime.getFullYear();
                     }
-                    self.showMainSlider=true;
+                    self.showMainSlider = true;
 
                     self.imageList = tempData;
                 });
