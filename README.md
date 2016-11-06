@@ -2,6 +2,9 @@
 
 ## WEEXONE
 
+**注：**
+我在 [Weexpack](8) 分支下实现了用WeexPack进行打包的配置
+
 ## Update
 * 2016-10-31 修复h5里tab和navigator路径错误问题，增加了weexone脚本
 * 2016-10-30 修复了h5下相对路径取值错误问题
@@ -66,3 +69,4 @@ npm install
   [5]: ./images/4.png "4.png"
   [6]: ./images/5.png "5.png"
   [7]: ./images/6.png "6.png"
+  [8]: https://github.com/dodola/WeexOne/tree/weexpack
