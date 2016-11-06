@@ -3,7 +3,7 @@
 ## WEEXONE
 
 **注：**
-我在 [Weexpack](8) 分支下实现了用WeexPack进行打包的配置
+我在 [Weexpack][8] 分支下实现了用WeexPack进行打包的配置
 
 ## Update
 * 2016-10-31 修复h5里tab和navigator路径错误问题，增加了weexone脚本
